@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/bananabg.jpg');
+}
+
+.thead{
+    background-color: darkgoldenrod;
+}
+
+input[type="number"] {
+    width: 3rem;
+  }
+  td, th {
+    padding: 10px 25px;
+}
+
+  .card {
+    margin-top: 25px;
+}
+  
+  #messages {
+    margin-top: 10px;
+  } 
