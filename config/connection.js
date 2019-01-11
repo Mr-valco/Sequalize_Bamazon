@@ -4,12 +4,13 @@ var connection;
 if(proccess.env.JAWSDB_URL){
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 }else {
+       // Database is local
     connection = mysql.createConnection({
         port: 3306,
-        host: 'e764qqay0xlsc4cz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-        user: 'sstnryk7qg9enige',
-        password: 'ccc23sa2cgfra2lt',
-        database: 'q7jgcojzslns5t0a'
+        host: 'localhost',
+        user: 'root',
+        password: 'lightforge',
+        database: 'bamazon_seq'
     });
 };
 
