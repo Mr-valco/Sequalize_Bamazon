@@ -140,6 +140,7 @@ $(function () {
         $('.modal-body').empty();
         $('.modal-body').append("Purchase approved!");
         //clearMessages();
+        location.reload();
     }
 
     getItems();
