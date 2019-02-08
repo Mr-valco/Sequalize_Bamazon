@@ -117,9 +117,10 @@ $(function () {
             }).then(function (data) {
                 index = index - 1;
                 updateItem(index);
+                
             });
+            
         }
-        
         getItems();
     }
 
@@ -137,10 +138,11 @@ $(function () {
         calculateTotal();
         const index = inCartItems.length - 1;
         updateItem(index);
-        $('.modal-body').empty();
-        $('.modal-body').append("Purchase approved!");
+        //$('.modal-body').empty();
+        //$('.modal-body').append("Purchase approved!");
         //clearMessages();
         location.reload();
+        
     }
 
     getItems();
